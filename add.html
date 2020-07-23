@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Add Subject</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=7cb08172b075f916db14e83fb29d4f8d">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"></div>
+                    <div class="sidebar-brand-text mx-3"><span>PUCIT - CMS</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="profile.html"><i class="fas fa-user"></i><span>Update Profile</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="changepassword.html"><i class="fa fa-unlock"></i><span>Change Password</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="add.html"><i class="fa fa-plus-circle"></i><span>Add Subject</span></a></li>
+					<li class="nav-item" role="presentation"><a class="nav-link" href="drop.html"><i class="fa fa-minus-circle"></i><span>Drop Subject</span></a></li>
+					<li class="nav-item" role="presentation"><a class="nav-link" href="transcript.html"><i class="fa fa-laptop "></i><span>Transcript</span></a></li>
+					<li class="nav-item" role="presentation"><a class="nav-link" href="challanform.html"><i class="fa fas fa-table "></i><span>Challan Form</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="message.html"><i class="fas fa fa-phone"></i><span>Message</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.html"><i class="fas fa-sign-out-alt "></i><span>Logout</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid">
+					<div class="brand-text mx-3"><span><strong>Punjab University College of Information and Technology</strong></span></div>
+					<button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <ul class="nav navbar-nav flex-nowrap ml-auto">
+                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="badge badge-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
+                                        role="menu">
+                                        <h6 class="dropdown-header">Announcements</h6>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="mr-3">
+                                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                                <p>A new monthly report is ready to download!</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="mr-3">
+                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                                <p>$290.29 has been deposited into your account!</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="mr-3">
+                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                                <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                            </div>
+                                        </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-envelope fa-fw"></i><span class="badge badge-danger badge-counter">7</span></a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
+                                        role="menu">
+                                        <h6 class="dropdown-header">Messages</h6>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/images.png">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
+                                                <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/images.png">
+                                                <div class="status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>I have the photos that you ordered last month!</span></div>
+                                                <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/images.png">
+                                                <div class="bg-warning status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div>
+                                                <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                                            </div>
+                                        </a>
+                                        <a class="d-flex align-items-center dropdown-item" href="#">
+                                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/images.png">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="font-weight-bold">
+                                                <div class="text-truncate"><span>Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</span></div>
+                                                <p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p>
+                                            </div>
+                                        </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                                </div>
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">*Username*</span><img class="border rounded-circle img-profile" src="assets/img/images.png"></a>
+                                    <div
+                                        class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu">
+                          
+                                            <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a></div>
+                    </div>
+                    </li>
+                    </ul>
+            </div>
+            </nav>
+            
+			
+			
+			
+			
+ 
+ 		<div style="font-size:12px; color:#000080; margin:50px;">You have to visit Program Coordinator for approval of your request.</div>
+		<form name="search" id="search" action="add1.html">
+		
+		<table style = "margin-left:50px ">
+			<tbody>
+				<tr>
+					<td>
+						<div id="erraa" style="color:#FF0000"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Course Name:
+					</td>
+					<td>
+						<select name="coursename" id="coursename">
+						<option value="CS-520|Advance Computer Architecture">Advance Computer Architecture - CS-520</option>
+						<option value="CS-515|Advance Theory of Computation">Advance Theory of Computation - CS-515</option>
+						<option value="CS-510|Advanced Analysis of Algorithms">Advanced Analysis of Algorithms - CS-510</option>
+						<option value="CS-525|Advanced Operating Systems">Advanced Operating Systems - CS-525</option>
+						<option value="CS-212|Analysis of Algorithms">Analysis of Algorithms - CS-212</option>
+						<option value="HM-260|Arabic Language">Arabic Language - HM-260</option>
+						<option value="CS-360|Artificial Intelligence">Artificial Intelligence - CS-360</option>
+						<option value="NS-105|Basic Electronics">Basic Electronics - NS-105</option>
+						<option value="EN-305|Business &amp; Technical Communication">Business &amp; Technical Communication - EN-305</option>
+						<option value="MA-102|Calculus-II">Calculus-II - MA-102</option><option value="CS-536|Cloud Computing">Cloud Computing - CS-536</option>
+						<option value="CS-536|Cloud Computing and Big Data">Cloud Computing and Big Data - CS-536</option>
+						<option value="EN-212|Communication Skills">Communication Skills - EN-212</option>
+						<option value="CS-411|Compiler Construction">Compiler Construction - CS-411</option>
+						<option value="CMP-330|Computer Networks">Computer Networks - CMP-330</option>
+						<option value="CMP-331|Computer Networks Lab">Computer Networks Lab - CMP-331</option>
+						<option value="CMP-223|Computer Organization &amp; Assembly Language">Computer Organization &amp; Assembly Language - CMP-223</option>
+						<option value="CMP-224|Computer Organization &amp; Assembly Language Lab">Computer Organization &amp; Assembly Language Lab - CMP-224</option>
+						<option value="SE-455|Computer Vision">Computer Vision - SE-455</option>
+						<option value="CS-572|Data Mining and Information Retrieval">Data Mining and Information Retrieval - CS-572</option>
+						<option value="CMP-210|Data Structures and Algorithms">Data Structures and Algorithms - CMP-210</option>
+						<option value="CMP-211|Data Structures and Algorithms Lab">Data Structures and Algorithms Lab - CMP-211</option>
+						<option value="CMP-270|Database Systems">Database Systems - CMP-270</option>
+						<option value="CMP-271|Database Systems Lab">Database Systems Lab - CMP-271</option>
+						<option value="CS-568|Deep Learning">Deep Learning - CS-568</option><option value="CS-505|Digital Image Processing">Digital Image Processing - CS-505</option>
+						<option value="CMP-120|Digital Logic Design">Digital Logic Design - CMP-120</option>
+						<option value="CMP-121|Digital Logic Design Lab">Digital Logic Design Lab - CMP-121</option>
+						<option value="CMP-101|Discrete Mathematics">Discrete Mathematics - CMP-101</option>
+						<option value="IT-342|Enterprise Application Development">Enterprise Application Development - IT-342</option>
+						<option value="EC-482|Entrepreneurship">Entrepreneurship - EC-482</option><option value="CS-503|Graph theory">Graph theory - CS-503</option>
+						<option value="IT-452|Human Computer Interaction">Human Computer Interaction - IT-452</option>
+						<option value="IT-472|Information Systems">Information Systems - IT-472</option>
+						<option value="CS-531|Internet of Things">Internet of Things - CS-531</option>
+						<option value="SS-220|Intro to Psychology">Intro to Psychology - SS-220</option>
+						<option value="SS-0049|Intro to Sociology">Intro to Sociology - SS-0049</option>
+						<option value="CS-581|Introduction to Cryptography">Introduction to Cryptography - CS-581</option>
+						<option value="SS-201|Introduction to Economics">Introduction to Economics - SS-201</option>
+						<option value="CS-445|Introduction to Parallel Programming">Introduction to Parallel Programming - CS-445</option>
+						<option value="HM-210|Islamic Studies and Pakistan Studies">Islamic Studies and Pakistan Studies - HM-210</option>
+						<option value="MA-210|Linear Algebra">Linear Algebra - MA-210</option>
+						<option value="SS-311|Management Information Systems">Management Information Systems - SS-311</option>
+						<option value="CS-|Medical Image Analysis">Medical Image Analysis - CS-</option>
+						<option value="SE-443|Mobile Computing">Mobile Computing - SE-443</option>
+						<option value="CS-291|Object Oriented Analysis &amp; Design">Object Oriented Analysis &amp; Design - CS-291</option>
+						<option value="CMP-341|Object Oriented Programming">Object Oriented Programming - CMP-341</option>
+						<option value="CMP-342|Object Oriented Programming Lab">Object Oriented Programming Lab - CMP-342</option>
+						<option value="CMP-225|Operating Systems">Operating Systems - CMP-225</option>
+						<option value="CS-535|Parallel and Distributed Computing">Parallel and Distributed Computing - CS-535</option>
+						<option value="SS-410|Principles of Management">Principles of Management - SS-410</option><option value="MA-120|Probability &amp; Statistics">Probability &amp; Statistics - MA-120</option>
+						<option value="HM-240|Professional Ethics">Professional Ethics - HM-240</option><option value="CMP-140|Programming Fundamentals">Programming Fundamentals - CMP-140</option><option value="CMP-141|Programming Fundamentals Lab">Programming Fundamentals Lab - CMP-141</option>
+						<option value="CS-500|Research Methodology">Research Methodology - CS-500</option>
+						<option value="CS-510|Research Methodology">Research Methodology - CS-510</option>
+						<option value="SE-494|Software Design &amp; Architecture">Software Design &amp; Architecture - SE-494</option>
+						<option value="CS-290|Software Engineering">Software Engineering - CS-290</option><option value="CS-492|Software Project Management">Software Project Management - CS-492</option><option value="IT-493|Software Quality Assurance">Software Quality Assurance - IT-493</option><option value="SE-392|Software Requirements Engineering">Software Requirements Engineering - SE-392</option>
+						<option value="CS-564|Statistical Natural Language Processing">Statistical Natural Language Processing - CS-564</option>
+						<option value="CS-421|Systems Programming">Systems Programming - CS-421</option><option value="EN-205|Technical &amp; Business Writing">Technical &amp; Business Writing - EN-205</option><option value="IT-311|Theory of Automata">Theory of Automata - IT-311</option><option value="CS-211|Theory of Automata &amp; Formal Languages">Theory of Automata &amp; Formal Languages - CS-211</option><option value="CS-340|Web Engineering">Web Engineering - CS-340</option><option value="CS-341|Web Engineering Lab">Web Engineering Lab - CS-341</option>
+						</select>
+						</td>
+					</tr>
+					<tr >
+					<td></td>
+						<td>
+							<input onclick="add1.html" style = "margin-top:20px " type="submit" value="Search">
+						</td>
+					</tr></tbody></table>
+	
+			</form>
+			
+        </div>
+        <footer class="bg-white sticky-footer">
+            <div class="container my-auto">
+			
+                <div class="text-center my-auto copyright"><span>1. View select subject dropdown.</span></div>
+            <br > <div class="text-center my-auto copyright"><span>2. View select button.</span></div>
+            <hr >
+                <div class="text-center my-auto copyright"><span>Copyright © PUCIT 2020</span></div>
+            </div>
+        </footer>
+    </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/script.min.js?h=9af5f655239f5ce4fa692ca1c1513d50"></script>
+</body>
+
+</html>
